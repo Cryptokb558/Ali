@@ -1408,5 +1408,23 @@ except requests.exceptions.ConnectionError:
 
 except Exception as e:pass
 
-menu()
+menu()# ===================== DUMP FIX =====================
+import os
+
+def Main():
+    clear()
+    print("\033[1;33m[•] Create IDs File Feature\033[0m")
+    print("\033[1;31m❌ Yeh Feature Abhi Is Tool Mein Incomplete Hai\033[0m")
+    print("\033[1;37mYeh bohot purana tool hai. Isme dump feature abhi kaam nahi kar raha.\033[0m")
+    print("\033[1;36mOption 1 (File Cloning) ya Option 3 (Public Cloning) use karo.\033[0m\n")
+    
+    input("\nPress Enter to go back to menu...")
+    
+    os.system('python kb.py')
+
+# Agar kahi aur se bhi call ho to
+if __name__ == "__main__":
+    Main()
+# ===================================================
+nano kb.py
 
